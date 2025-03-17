@@ -1,1 +1,11 @@
-h1{color:#80c271ff}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+h1{color:rgb(169, 221, 157)}
+
+
+body{background-color:rgb(21, 68, 116);
+    font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+

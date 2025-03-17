@@ -1,10 +1,10 @@
 console.log("hello")
 
-let age= document.querySelector(".age");
+let age= document.querySelector(".Age");
 let tribe=document.querySelector(".tribe");
 let quiz=document.querySelector(".quiz");
-let Kiri=document.querySelector(".Kiri");
-Kiri.style.display="none";
+
+
 
 
 quiz.onclick=function(){
