@@ -17,20 +17,18 @@ font-optical-sizing: auto;
 }
 
 
-input[placeholder=Age] {
+input {
   background-color:rgb(56, 58, 160);
   color: white;
-}
-
-
-input[placeholder=Age] {
-  width: 15%;
+  width: 18%;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
 }
 
-input[placeholder=Sully family or OceanClan] {
-  background-color:rgb(56, 58, 160);
-  color: white;
+.quiz {
+  background-color: rgb(56, 58, 160);
+  color:white;
+  border: 2px solid #04AA6D; 
+  padding: 12px 28px;
 }
