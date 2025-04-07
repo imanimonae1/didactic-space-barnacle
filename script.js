@@ -4,6 +4,7 @@ let age= document.querySelector(".Age");
 let tribe=document.querySelector(".tribe");
 let quiz = document.querySelector(".quiz");
 let avatar=document.querySelector(".avatar");
+avatar.style.display="block";
 let kiri=document.querySelector(".kiri");
 kiri.style.display="none";
 let message=document.querySelector(".message");
@@ -42,14 +43,14 @@ aonung.style.display="none";
 message.innerHTML="YOU ARE NETEYAM";
 }
 
-    if(age>=16 && tribe==="Ocean Clan"){
-       avartar.style.display="none";
+    if(age>=16 && tribe==="Ocean clan"){
+       avatar.style.display="none";
        tsireya.style.display="none";
        kiri.style.display="none";
        aonung.style.display="block";
        message.innerHTML="YOU ARE AONUNG!";
     }
-    else if( age<15 && tribe==="Ocean Clan"){
+    else if( age<15 && tribe==="Ocean clan"){
         tsireya.style.display="block";
         avatar.style.display="none";
         kiri.style.display="none";
