@@ -2,25 +2,33 @@
 h1{color:rgb(169, 221, 157)}
 
 
-body{background-color:rgb(21, 68, 116);
+body{
+  background-color:rgb(21, 68, 116); */
     font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-weight: 800;
   font-style: normal;
+  display: flex;
+  justify-content: center;
 }
 
 .message{color:rgb(169, 221, 157) ;
 font-family:"Raleway", sans-serif; 
 font-optical-sizing: auto;
-  font-weight: 900;
+  font-weight: 1000;
   font-style: normal;
+  font-size: large;
 }
 
-
+.layout{
+  width: 70%;
+  margin:0 auto;
+ 
+}
 input {
   background-color:rgb(56, 58, 160);
   color: white;
-  width: 18%;
+  width: 40%;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
@@ -31,4 +39,8 @@ input {
   color:white;
   border: 2px solid #04AA6D; 
   padding: 12px 28px;
+}
+
+img {
+  width: 100%;
 }
